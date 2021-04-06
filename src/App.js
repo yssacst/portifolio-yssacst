@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
+  const [lightTheme, setLightTheme] = React.useState(true);
+
+  const toggleTheme = () => {
+    setLightTheme(!lightTheme);
+  }
+
   return (
-    <div className="App">
+    <div className={`App ${lightTheme ? ``:`dark-mode`}`} >
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Portifolio</h1>
       </header>
+      <main className="App-main">
+        Rayssa
+        <button onClick={toggleTheme}>toggle</button>
+      </main>
+      <footer className="App-footer">
+        <a href='https://br.freepik.com/vetores/flor'>Flor vetor criado por lukasdedi - br.freepik.com</a>
+      </footer>
     </div>
   );
 }
