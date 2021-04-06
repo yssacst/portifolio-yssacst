@@ -12,9 +12,9 @@ function App() {
   return (
     <div className={`App ${lightTheme ? ``:`dark-mode`}`} >
       <header className="App-header">
-        <a href="#sobremim"><img src={NavImg}/></a>
+        <a href="#"><img src={NavImg}/></a>
         <nav className="App-nav">
-          <a href="#sobremim">Sobre mim</a>
+          <a href="#">Sobre mim</a>
           <a href="#projetos">Projetos</a>
           <a href="#formacoes">Formações</a>
           <a href="#experiencia">Experiência</a>
@@ -23,7 +23,7 @@ function App() {
       </header>
       <main className="App-main">
 
-        <div id="sobremim" className="div-impar">
+        <div id="#" className="div-impar">
           <h6>Bem vindo ao meu portifólio</h6>
           <h1>Rayssa P. C. de Araujo</h1>
           
