@@ -53,7 +53,8 @@ function App() {
 
       <footer className="App-footer">
         <p>© 2021 Rayssa Costa</p>
-        <a href='https://br.freepik.com/vetores/flor'>Flor vetor criado por lukasdedi - br.freepik.com</a>
+        <a href='https://br.freepik.com/vetores/flor' className="atribuicao">Flor vetor criado por lukasdedi - br.freepik.com</a>
+        <a href="#" className="a-topo">Topo</a>
       </footer>
     </div>
   );

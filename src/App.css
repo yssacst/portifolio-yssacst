@@ -72,13 +72,18 @@
   background-color: var(--color-secundaria);
   width: 100%;
 }
-.App-footer a{
+.atribuicao{
   font-size: 10px;
   color:var(--font-color-2);
 }
-.App-footer a::after{
-  scroll-margin-top: 100px;
+.a-topo{
+  float: right;
+  margin-right:10px;
+  font-size: 15px;
+  color:var(--font-color-2);
+  text-decoration: none;
 }
+
 @media only screen and (max-width:500px) {
   .App-header img{
     z-index: 1;
