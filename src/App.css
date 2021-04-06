@@ -8,25 +8,84 @@
   --font-color-2:#F8D562;
   --color-secundaria:#6C2B0F;
   --color-terciaria:#445C35;
+  scroll-behavior: smooth;
+  
 }
 .dark-mode{
   --bg-color-1:#1A120C;
   --font-color-1:#EBEAE6;
 }
-
+.App-nav{
+  top:0;
+  width: 100%;
+  text-align: right;
+  position:fixed;
+  background-color:var(--font-color-2);
+  height: 50px;
+  vertical-align: middle;
+}
+.App-nav a{
+  margin:3px;
+  color:var(--color-terciaria);
+  text-decoration: none;
+  font-weight: bold;
+}
 .App{
-  width:100vw;
-  height:100vh;
+  width:100%;
+  height:100%;
+  text-align:center;
   background-color: var(--bg-color-1);
-  color:var(--font-color-1)
+  color:var(--font-color-1);
 }
 .App-header{
   background-color: var(--bg-color-1);
-  color:var(--font-color-1)
+  color:var(--font-color-1);
+}
+.App-header img{
+  z-index: 1;
+  top:0;
+  left:0;
+  position:fixed;
+  width: 300px;
+  margin-top:-50px;
 }
 .App-main{
+  padding-top: 60px;
+}
 
+.div-impar{
+  height: 500px;
+}
+
+.div-par{
+  height: 500px;
+  background-color: var(--font-color-1);
+  color:var(--bg-color-1);
+}
+
+.div-par:target, .div-impar:target {
+  padding-top:60px;
 }
 .App-footer{
-
+  bottom:0;
+  position:fixed;
+  background-color: var(--color-secundaria);
+  width: 100%;
+}
+.App-footer a{
+  font-size: 10px;
+  color:var(--font-color-2);
+}
+.App-footer a::after{
+  scroll-margin-top: 100px;
+}
+@media only screen and (max-width:500px) {
+  .App-header img{
+    z-index: 1;
+    top:20px;
+    left:-25px;
+    position:fixed;
+    width: 200px;
+    }
+  
 }
