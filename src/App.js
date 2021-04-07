@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import NavImg from '../src/img/flores.png';
+import fotoPerfil from '../src/img/form.png';
+
 
 function App() {
   const [lightTheme, setLightTheme] = React.useState(true);
@@ -25,8 +27,18 @@ function App() {
 
         <div id="#" className="div-impar">
           <h6>Bem vindo ao meu portifólio</h6>
-          <h1>Rayssa P. C. de Araujo</h1>
-          
+          <h1 className="title">Rayssa P. C. de Araujo</h1>
+          <div className="d-flex">
+            <div className="d-resumo">
+                  <p>23 anos</p>
+                  <p>Técnica em Informática por CEFET</p>
+                  <p>Bacharel em Sistemas de Informação por UNESA</p>
+                  <p>Full Stack por Recode Pro</p>
+            </div>
+            <div className="d-pic">
+              <img src={fotoPerfil}/>
+            </div>
+          </div>
         </div>
 
         <div id="projetos" className="div-par">
@@ -35,8 +47,6 @@ function App() {
         </div>
 
         <div id="formacoes" className="div-impar">
-           <h5>Em Construção</h5>
-       
         </div>
         
         <div id="experiencia" className="div-par">
