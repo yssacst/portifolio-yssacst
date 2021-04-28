@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portifolio-yssacst/static/css/main.3cb63b26.chunk.css",
-    "main.js": "/portifolio-yssacst/static/js/main.4bb3fafb.chunk.js",
-    "main.js.map": "/portifolio-yssacst/static/js/main.4bb3fafb.chunk.js.map",
+    "main.js": "/portifolio-yssacst/static/js/main.fcb0d1f8.chunk.js",
+    "main.js.map": "/portifolio-yssacst/static/js/main.fcb0d1f8.chunk.js.map",
     "runtime-main.js": "/portifolio-yssacst/static/js/runtime-main.835c9cc0.js",
     "runtime-main.js.map": "/portifolio-yssacst/static/js/runtime-main.835c9cc0.js.map",
     "static/js/2.51681676.chunk.js": "/portifolio-yssacst/static/js/2.51681676.chunk.js",
@@ -13,13 +13,13 @@
     "static/css/main.3cb63b26.chunk.css.map": "/portifolio-yssacst/static/css/main.3cb63b26.chunk.css.map",
     "static/js/2.51681676.chunk.js.LICENSE.txt": "/portifolio-yssacst/static/js/2.51681676.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portifolio-yssacst/static/media/DancingScript-VariableFont_wght.d618761a.ttf",
-    "static/media/flores.ac0b2b80.png": "/portifolio-yssacst/static/media/flores.ac0b2b80.png",
-    "static/media/form.4f0277a3.png": "/portifolio-yssacst/static/media/form.4f0277a3.png"
+    "static/media/flores.be6fc543.png": "/portifolio-yssacst/static/media/flores.be6fc543.png",
+    "static/media/perfil.657e7318.png": "/portifolio-yssacst/static/media/perfil.657e7318.png"
   },
   "entrypoints": [
     "static/js/runtime-main.835c9cc0.js",
     "static/js/2.51681676.chunk.js",
     "static/css/main.3cb63b26.chunk.css",
-    "static/js/main.4bb3fafb.chunk.js"
+    "static/js/main.fcb0d1f8.chunk.js"
   ]
 }
