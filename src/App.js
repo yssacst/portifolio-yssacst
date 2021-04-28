@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavImg from '../src/img/flores.png';
-import fotoPerfil from '../src/img/form.png';
+import fotoPerfil from '../src/img/perfil.png';
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className={`App ${lightTheme ? ``:`dark-mode`}`} >
+      
       <header className="App-header">
         <a href="#"><img src={NavImg}/></a>
         <nav className="App-nav">
@@ -23,14 +24,14 @@ function App() {
           <a href="#contato">Contato</a>
         </nav>
       </header>
-      <main className="App-main">
 
+      <main className="App-main">
         <div id="#" className="div-impar">
           <h6>Bem vindo ao meu portifólio</h6>
           <h1 className="title">Rayssa P. C. de Araujo</h1>
           <div className="d-flex">
             <div className="d-resumo">
-                  <p>23 anos</p>
+                  <p>24 anos</p>
                   <p>Técnica em Informática por CEFET</p>
                   <p>Bacharel em Sistemas de Informação por UNESA</p>
                   <p>Full Stack por Recode Pro</p>
@@ -41,17 +42,16 @@ function App() {
           </div>
         </div>
 
-        <div id="projetos" className="div-par">
-           <h5>Em Construção</h5>
-       
-        </div>
-
         <div id="formacoes" className="div-impar">
         </div>
         
+        <div id="projetos" className="div-par">
+           <h5>Em Construção</h5>
+        </div>
+
+        
         <div id="experiencia" className="div-par">
           <h5>Em Construção</h5>
-
         </div>
 
         <div id="contato" className="div-impar">
