@@ -18,11 +18,13 @@ function App() {
       <header className="App-header">
         <a href="#"><img src={NavImg}/></a>
         <nav className="App-nav">
-          <a href="#">Sobre mim</a>
-          <a href="#formacoes">Formações</a>
-          <a href="#projetos">Projetos</a>
-          <a href="#experiencia">Experiência</a>
-          <a href="#contato">Contato</a>
+          <ul>
+              <li><a href="#">Sobre mim</a></li>
+              <li><a href="#formacoes">Formações</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#experiencia">Experiência</a></li>
+              <li><a href="#contato">Contato</a></li>
+          </ul>
         </nav>
       </header>
 
@@ -31,14 +33,18 @@ function App() {
           <h6>Bem vindo ao meu portifólio</h6>
           <h1 className="title">Rayssa P. C. de Araujo</h1>
           <div className="d-flex">
-            <div className="d-resumo">
-                  <p>24 anos</p>
-                  <p>Técnica em Informática por CEFET</p>
-                  <p>Bacharel em Sistemas de Informação por UNESA</p>
-                  <p>Full Stack por Recode Pro</p>
-            </div>
             <div className="d-pic">
               <img src={fotoPerfil}/>
+            </div>
+            <div className="d-resumo">
+                  <p>Prazer, me chamo Rayssa e essa pessoinha aí da foto sou eu :D</p>
+                  <p>Tenho 24 anos e minha aventura no mundo da tecnologia se iniciou 
+                    oficialmente aos meus 14 anos, quando iniciei meu curso Técnico em
+                    Informática pelo CEFET/UnedNI, que foi onde me encontrei de verdade
+                    no meu primeiro Hello World (risos). E, desde então, venho me dedicado a área.</p> 
+                    <p>Em 2015, logo após concluir o Ensino Médio/Técnico, ingressei no curso Bacharel
+                      de Sistemas de Informação pela UNESA, concluindo-o em 2018.2.</p>
+                      <p>Estou apenas no início da minha caminhada, e ainda quero fazer muita história. </p>
             </div>
           </div>
         </div>
@@ -80,7 +86,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        <p>© 2021 Rayssa Costa</p>
+        <p>Copyright © 2021, Rayssa Costa - Todos os direitos reservados</p>
         <a href='https://br.freepik.com/vetores/flor' className="atribuicao">Flor vetor criado por lukasdedi - br.freepik.com</a>
         <a href="#" className="a-topo"><i class="fas fa-arrow-circle-up"></i></a>
       </footer>

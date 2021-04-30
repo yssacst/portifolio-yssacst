@@ -29,6 +29,13 @@
   background-color:var(--font-color-2);
   box-shadow: 0px 0px 8px var(--color-terciaria);
 }
+.App-nav ul{
+  list-style:none;
+  position:relative;
+}
+.App-nav ul li{
+  float:right;
+}
 .App-nav a{
   margin:6px;
   color:var(--color-terciaria);
@@ -68,6 +75,7 @@
 .d-resumo{
   margin-top: auto;
   margin-bottom: auto;
+  max-width: 400px;
 }
 .d-pic{
   float: right;
@@ -78,7 +86,7 @@
 }
 .div-impar{
   min-height: 500px;
-  height:500px;
+  padding:20px;
 }
 
 .div-par{
@@ -86,6 +94,7 @@
   justify-content: center;
   flex-wrap: wrap;
   min-height: 500px;
+  padding:20px;
   background-color: var(--font-color-1);
   color:var(--bg-color-1);
 }
@@ -112,7 +121,8 @@
 }
 .d-flex{
   display: flex;
-  justify-content:center
+  justify-content:center;
+  flex-wrap: wrap;
 }
 @media only screen and (max-width:500px) {
   .App-header img{
@@ -122,11 +132,15 @@
     position:fixed;
     width: 200px;
     }
+  .d-flex{
+    flex-wrap: wrap;
+  }
   .d-pic{
-    width: 100%;
+    width: 60%;
   }
   .d-resumo{
     width: 100%;
+    word-wrap: break-word;
   }
     .d-pic img{
     width:100%;
