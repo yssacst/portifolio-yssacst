@@ -18,6 +18,8 @@ function App() {
       <header className="App-header">
         <a href="#"><img src={NavImg}/></a>
         <nav className="App-nav">
+          <input type="checkbox" id="check"/>
+          <label for="check" className="checkbtn"><i className="fas fa-bars"></i></label>
           <ul>
               <li><a href="#">Sobre mim</a></li>
               <li><a href="#formacoes">Formações</a></li>
